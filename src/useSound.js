@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import * as R from 'ramda'
 import { playersConfig, compressorConfig } from './TonesConfig'
 import Tone from 'tone'

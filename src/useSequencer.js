@@ -1,8 +1,7 @@
-import React, { useReducer } from 'react'
+import { useReducer } from 'react'
 import * as R from 'ramda'
 import { toggle } from './utils'
-import { initTones, playersConfig, compressorConfig } from './TonesConfig'
-import { stat } from 'fs'
+import { initTones } from './TonesConfig'
 
 const isSameNote = (note, step) => R.whereEq({ note, step })
 const toggleRightPad = (note, step) => {
